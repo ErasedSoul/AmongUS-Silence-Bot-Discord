@@ -1,0 +1,19 @@
+{
+  "name": "silencebot",
+  "version": "1.0.0",
+  "description": "A bot to mute and unmute everyone in voice channel",
+  "main": "silencebot.js",
+  "scripts": {
+    "start": "node silencebot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "author": "Anirban Das",
+  "license": "ISC"
+}
