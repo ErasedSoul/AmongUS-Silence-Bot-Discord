@@ -1,4 +1,4 @@
-
+client.login("########################")   //Give the Bot api key
 const express = require("express");
 const app = express();
 const io = require('socket.io')(process.env.PORT);
@@ -57,6 +57,3 @@ client.on('message',(msg)=>{
         textChannel.send(unmuted);
     }
 })
- 
-
-client.login("########################")
